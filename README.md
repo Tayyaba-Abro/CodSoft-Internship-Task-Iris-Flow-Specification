@@ -154,7 +154,8 @@ sns.countplot(x = df['species'] , data = df, palette = custom_palette)
 ![species](https://github.com/Tayyaba-Abro/CodSoft-Internship-Task-Iris-Flow-Specification/assets/47588244/6a3a2e40-f0f2-4460-b68f-5ae8a731e3a4)
 
 ### Modelling Techniques
-The four medelling techniques are used to test the data. 
+we explore various machine learning models to classify Iris flowers based on their sepal and petal measurements. Each of the following techniques offers a unique approach to this classification task: 
+
 ```python
 # creating target and learning variables
 X = df[["sepal_length" , "sepal_width" , "petal_length" , "petal_width"]]
@@ -266,6 +267,12 @@ RFCAcc = accuracy_score(y_test, y_pred)
 print('Random Forest Classifier accuracy: {:.2f}%'.format(RFCAcc*100))
 ```
 ![image](https://github.com/Tayyaba-Abro/CodSoft-Internship-Task-Iris-Flow-Specification/assets/47588244/01e3d5d1-c24f-4f46-8a0f-aabeb3f2683f)
+
+For each technique, we evaluate its accuracy and performance in classifying Iris flowers into their respective species. Let's see how these models stack up against each other!
+
+## Conclusion
+This project revealed valuable insights into the Iris dataset, and we've achieved an accuracy ratio of 79.74%. This demonstrates the effectiveness of our chosen modelling techniques.
+
 
 
 
