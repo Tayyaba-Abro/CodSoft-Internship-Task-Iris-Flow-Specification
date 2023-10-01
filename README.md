@@ -1,4 +1,4 @@
-# CodSoft Internship Task: Iris Flow Specification
+# CodSoft Internship Task: Iris Flower Classification
 
 ## Introduction
 
